@@ -1,0 +1,50 @@
+.modal-wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.modal-card {
+  width: 90%;
+  background-color: white;
+  padding: 2rem;
+  position: relative;
+  border-radius: 1.2rem;
+  overflow: auto;
+}
+
+.modal-card__close-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: transparent;
+}
+
+.modal-card__close-btn::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../../public/closeIcon.svg");
+  background-size: contain;
+  width: 2rem;
+  height: 2rem;
+}
+
+@media (min-width: 768px) {
+  .modal-card {
+    width: 50rem;
+    padding: 3rem;
+  }
+
+  .modal-card__close-btn {
+    top: 1rem;
+    right: 1rem;
+  }
+}

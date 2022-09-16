@@ -1,0 +1,22 @@
+.no-items-container {
+  color: white;
+  font-size: 3.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.no-items-container__content {
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+.no-items-container__btn {
+  background-color: brown;
+  color: white;
+  font-size: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}

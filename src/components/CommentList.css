@@ -1,0 +1,117 @@
+.comment-container {
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-header,
+.comment-item__btn-row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.comment-list {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.comment-item {
+  margin-top: 2rem;
+}
+
+.comment-item__figure{
+  border-left: solid 4px #43507a;
+  background-image: url('../../public/icon-quote.png');
+  background-size: 4rem;
+  background-repeat: no-repeat;
+  padding: 4.5rem 0 0 1rem;
+}
+
+.comment-item,
+.list-header {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.comment-item__info {
+  text-align: right;
+  font-style: italic;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.comment-item__btn,
+.list-header__sort-btn,
+.list-header__add-btn {
+  background-color: #43507a;
+  display: inline-flex;
+  align-items: center;
+  border: transparent;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  color: white;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.comment-item__btn,
+.list-header__add-btn {
+  margin-top: 2rem;
+}
+
+.list-header__sort-btn::before {
+  content: "";
+  background-image: url("../../public/arrow_down.svg");
+  background-size: contain;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.list-header__sort-btn--desc::before {
+  background-image: url("../../public/arrow_up.svg");
+}
+
+.comment-item__btn:hover,
+.list-header__sort-btn:hover {
+  background-color: rgb(81, 81, 81);
+}
+
+@media (min-width: 768px) {
+  .comment-item,
+  .list-header {
+    padding: 1.5rem;
+  }
+
+  .comment-item__info {
+    padding: 1.5rem;
+  }
+
+  .comment-item__btn,
+  .list-header__sort-btn,
+  .list-header__add-btn {
+    display: flex;
+    margin-right: 1.5rem;
+  }
+
+  .comment-item__btn,
+  .list-header__add-btn {
+    margin-top: 0rem;
+  }
+
+  .list-header,
+  .comment-list {
+    width: 50rem;
+  }
+
+  .list-header, .comment-item__btn-row {
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 2rem;
+  }
+}
+

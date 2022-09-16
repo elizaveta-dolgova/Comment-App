@@ -1,0 +1,17 @@
+.modal-content__image {
+  width: 100%;
+  margin-top: 1rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.modal-content__comment {
+  padding: 1rem 0;
+  font-size: 2rem;
+}
+
+.modal-content__author {
+  font-style: italic;
+  font-size: 1.8rem;
+  text-align: right;
+}
