@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Comment-App/static/css/main.9873171f.css",
-    "main.js": "/Comment-App/static/js/main.df5d4ea5.js",
+    "main.js": "/Comment-App/static/js/main.cd6bc632.js",
     "index.html": "/Comment-App/index.html",
     "static/media/closeIcon.svg": "/Comment-App/static/media/closeIcon.08233535a9321b39bf5f.svg",
     "static/media/arrow_up.svg": "/Comment-App/static/media/arrow_up.c8bbd1df90f3f05becd5.svg",
     "static/media/arrow_down.svg": "/Comment-App/static/media/arrow_down.b9e70e8133436cdb27fb.svg",
     "main.9873171f.css.map": "/Comment-App/static/css/main.9873171f.css.map",
-    "main.df5d4ea5.js.map": "/Comment-App/static/js/main.df5d4ea5.js.map"
+    "main.cd6bc632.js.map": "/Comment-App/static/js/main.cd6bc632.js.map"
   },
   "entrypoints": [
     "static/css/main.9873171f.css",
-    "static/js/main.df5d4ea5.js"
+    "static/js/main.cd6bc632.js"
   ]
 }
