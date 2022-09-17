@@ -33,6 +33,9 @@ const formReducer = (state, { type, value, field }) => {
           value: value,
         },
       };
+    
+    default:
+      return state;
   }
 };
 

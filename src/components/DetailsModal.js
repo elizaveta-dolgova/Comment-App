@@ -27,7 +27,7 @@ function DetailsModal() {
   return (
     <Modal>
       <figure className="modal-content">
-        <img src={img} className="modal-content__image" />
+        <img src={img} alt='comment image' className="modal-content__image" />
         <blockquote className="modal-content__comment">
           <p>{modalItem.comment}</p>
         </blockquote>

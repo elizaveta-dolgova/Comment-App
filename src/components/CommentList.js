@@ -1,4 +1,4 @@
-import React, { Fragment, useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { AppContext } from "../App";
 import "./CommentList.css";
 
@@ -15,7 +15,7 @@ const sortingFn = (array, ascending) => {
 };
 
 function CommentList() {
-  const { items, setItems, deleteItem, editItem, showModal } =
+  const { items, setItems, deleteItem, showModal } =
     useContext(AppContext);
   const [isSortingAscending, setSortingAscending] = useState(true);
 
