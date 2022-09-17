@@ -1,5 +1,9 @@
 # Comments App
-Training React app. Technologies used:
+Training React app. 
+
+Deployed on: https://elizaveta-dolgova.github.io/Comment-App/
+
+Technologies used:
 
 React:
 - hooks (useState, useReducer, useEffect, useContext. useRef);
